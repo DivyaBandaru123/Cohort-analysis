@@ -1,16 +1,18 @@
 # Cohort Analysis on Online Retail Data
 This project performs a Cohort Analysis on transactional data from an online retail store using Python (Pandas, Matplotlib, Seaborn). The objective is to analyze customer retention trends over time based on their first purchase month.
-📂 Dataset
+
+📂 Dataset:
+
 The dataset used is a transactional Excel file (Online Retail.xlsx) containing records of purchases from an online store. It includes fields such as:
 
-InvoiceDate
+1. InvoiceDate
 
-CustomerID
+2.CustomerID
 
-InvoiceNo
+3.InvoiceNo
 
-Quantity
+4.Quantity
 
-UnitPrice
+5.UnitPrice
 
-Country
+6.Country
