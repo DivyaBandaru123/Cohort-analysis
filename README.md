@@ -25,7 +25,7 @@ Jupyter Notebook for exploration and visualization
 
 📊 Analysis Workflow:
 
-1.Data Preprocessing: 
+1. Data Preprocessing: 
 
 a. Loaded and explored the dataset
 
@@ -33,22 +33,40 @@ b. Removed transactions with missing CustomerID
 
 c. Created a new column InvoiceMonth to group by transaction month
 
-2.Cohort Identification:
+2. Cohort Identification:
 
 a. Assigned a cohort month to each customer (month of first purchase)
 
 b. Calculated a cohort index to represent months since acquisition
 
-3.Customer Grouping:
+3. Customer Grouping:
 
 a. Grouped data by cohort month and cohort index
 
 b. Counted unique customers to track retention over time
 
-4.Visualization:
+4. Visualization:
 
 a. Created a retention matrix showing customer counts using a heatmap
 
 b. Built a percentage-based cohort heatmap to normalize retention behavior
 
 c. Used Blues and coolwarm colormaps to visually distinguish trends
+
+🔍 Insights & Impact:
+
+Identifies how long customers continue to engage after their first purchase
+
+Helps evaluate marketing effectiveness and loyalty patterns
+
+Useful for lifecycle marketing, churn analysis, and strategic planning
+
+📌 Key Takeaways:
+
+Cohort analysis enables time-based segmentation of user behavior.
+
+Percentage retention charts reveal drop-off trends not obvious in raw numbers.
+
+
+
+
