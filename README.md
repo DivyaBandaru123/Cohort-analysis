@@ -27,20 +27,28 @@ Jupyter Notebook for exploration and visualization
 
 1.Data Preprocessing: 
 
-a.Loaded and explored the dataset
-b.Removed transactions with missing CustomerID
-c.Created a new column InvoiceMonth to group by transaction month
+a. Loaded and explored the dataset
+
+b. Removed transactions with missing CustomerID
+
+c. Created a new column InvoiceMonth to group by transaction month
 
 2.Cohort Identification:
 
-a.Assigned a cohort month to each customer (month of first purchase)
-b.Calculated a cohort index to represent months since acquisition
+a. Assigned a cohort month to each customer (month of first purchase)
+
+b. Calculated a cohort index to represent months since acquisition
 
 3.Customer Grouping:
-a.Grouped data by cohort month and cohort index
-b.Counted unique customers to track retention over time
+
+a. Grouped data by cohort month and cohort index
+
+b. Counted unique customers to track retention over time
 
 4.Visualization:
-a.Created a retention matrix showing customer counts using a heatmap
-b.Built a percentage-based cohort heatmap to normalize retention behavior
-c.Used Blues and coolwarm colormaps to visually distinguish trends
+
+a. Created a retention matrix showing customer counts using a heatmap
+
+b. Built a percentage-based cohort heatmap to normalize retention behavior
+
+c. Used Blues and coolwarm colormaps to visually distinguish trends
