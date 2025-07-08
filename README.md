@@ -5,7 +5,7 @@ This project performs a Cohort Analysis on transactional data from an online ret
 
 The dataset used is a transactional Excel file (Online Retail.xlsx) containing records of purchases from an online store. It includes fields such as:
 
-1. InvoiceDate
+1.InvoiceDate
 
 2.CustomerID
 
