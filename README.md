@@ -16,3 +16,9 @@ The dataset used is a transactional Excel file (Online Retail.xlsx) containing r
 5.UnitPrice
 
 6.Country
+
+🔧 Tools & Libraries:
+
+Python: pandas, matplotlib, seaborn, datetime
+
+Jupyter Notebook for exploration and visualization
